@@ -104,8 +104,8 @@
                         </goals>
                         <configuration>
                             <projectName>RestAssured</projectName>
-                            <outputDirectory>${project.build.directory}/cucumber-report-html</outputDirectory>
-                            <inputDirectory>${project.build.directory}/cucumber/</inputDirectory>
+                            <outputDirectory>target/cucumber-report-html</outputDirectory>
+                            <inputDirectory>target/cucumber/</inputDirectory>
                             <jsonFiles>
                                 <param>**/*.json</param>
                             </jsonFiles>
